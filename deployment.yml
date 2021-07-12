@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dotnetworld
-        image: vignesh203/dotnet:latest
+        image: "{{image_id}}"
         ports:
         - containerPort: 80

@@ -1,4 +1,4 @@
-- hosts: "{{ env_variable }}"
+- hosts: all
   become: yes
   tasks:
   - name: Deploy the service

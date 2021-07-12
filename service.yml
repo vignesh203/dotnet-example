@@ -10,6 +10,6 @@ spec:
    - name: client
      protocol: TCP
      port: 80
-     nodePort: 32080
+     nodePort: 32077
  selector:
    app: dotnetworld
